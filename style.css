@@ -40,9 +40,7 @@ body {
   align-self: center;
 }
 
-.container {
-	width: 1000px;
-}
+
 
 .search-bar {
   grid-column: 2 / 3;
@@ -105,6 +103,11 @@ input {
 	position: absolute;
 	top: 100px;
 	margin-left: 50px;
+}
+
+.container {
+	display: grid;
+	width: 1000px;
 }
 
 .card {

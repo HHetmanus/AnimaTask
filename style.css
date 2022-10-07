@@ -86,6 +86,7 @@ input {
 	width: 1000px;
 }
 .card-column {
+	grid-template: repeat(5 / 2fr) / 3fr;
 	background-color: #ffffff;
 	gap: 10px;
 	min-height: 700px;

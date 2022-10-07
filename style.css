@@ -75,7 +75,16 @@ input {
   margin-top: 9px;
   margin-left: 7px;
 }
+.site-body {
+	position: absolute;
+	top: 100px;
+	margin-left: 50px;
+}
 
+.container {
+	display: grid;
+	width: 1000px;
+}
 .card-column {
 	background-color: #ffffff;
 	gap: 10px;
@@ -99,16 +108,7 @@ input {
 	margin-top: 7px;
 }
 
-.site-body {
-	position: absolute;
-	top: 100px;
-	margin-left: 50px;
-}
 
-.container {
-	display: grid;
-	width: 1000px;
-}
 
 .card {
 	margin-right: 15px;

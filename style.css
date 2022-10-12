@@ -71,6 +71,7 @@ input {
 }
 
 .card-column input {
+	display: grid;
 	height: 18px;
   margin-left: 15px;		
 }

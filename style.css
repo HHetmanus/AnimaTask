@@ -43,7 +43,7 @@ body {
 .container {
 	width: 1000px;
   display: grid;
-  grid-template-column: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .search-bar {

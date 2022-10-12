@@ -71,7 +71,6 @@ input {
 }
 
 .card-column input {
-	display: grid;
 	height: 18px;
   margin-left: 15px;		
 }
@@ -83,6 +82,8 @@ input {
 }
 
 .card-column {
+	display: grid;
+	grid-template-rows: 20px repeat(5, 100px);
 	background-color: #ffffff;
 	gap: 10px;
 	min-height: 700px;

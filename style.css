@@ -191,4 +191,5 @@ input {
 .completed-projects {
 	grid-template-rows: 20px;
 	grid-auto-rows: 100px;
+	align-content: start;
 }

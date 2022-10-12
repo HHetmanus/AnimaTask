@@ -40,7 +40,10 @@ body {
   align-self: center;
 }
 
-
+.container {
+	width: 1000px;
+  display: grid;
+}
 
 .search-bar {
   grid-column: 2 / 3;
@@ -75,18 +78,8 @@ input {
   margin-top: 9px;
   margin-left: 7px;
 }
-.site-body {
-	position: absolute;
-	top: 100px;
-	margin-left: 50px;
-}
 
-.container {
-	display: grid;
-	width: 1000px;
-}
 .card-column {
-	grid-template: repeat(5 / 2fr) / 3fr;
 	background-color: #ffffff;
 	gap: 10px;
 	min-height: 700px;
@@ -109,7 +102,11 @@ input {
 	margin-top: 7px;
 }
 
-
+.site-body {
+	position: absolute;
+	top: 100px;
+	margin-left: 50px;
+}
 
 .card {
 	margin-right: 15px;
